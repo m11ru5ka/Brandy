@@ -8,7 +8,7 @@ body
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: Cursive, Verdana, Tahoma;
+	font-family: Verdana, Tahoma;
 }  
 
 
@@ -98,7 +98,6 @@ Footer	{
     background-color: papayawhip;
 	color: black;
 	background-image: none;
-	  font-family: Verdana;
   }
   h1, h2 {
 	 color: black;
