@@ -1,0 +1,117 @@
+
+
+body
+{
+	background-image: url('vanhapaperi.jpg');
+	background-size: cover;
+	color: midnightblue;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Fantasy, Papyrus;	font-family: Cursive, Lucida-Handwriting;
+}  
+
+
+h1	{
+	text-align:center;
+	font-size:50px;
+	font-weight: bold;
+	color: darkSlateBlue;
+	text-shadow: 3px 3px 6px white;
+}
+h2	{font-size:30px;
+	text-decoration-line: underline;
+	text-align: center;
+	color: darkSlateBlue;
+	text-shadow: 3px 3px 6px white;
+
+}
+h3	{
+	font-size:20px;
+	font-weight: bold;
+	text-align: center;
+	color: darkSlateBlue;
+	text-shadow: 2px 2px 4px white;
+}
+caption {
+	font-size:20px;
+	font-weight: bold;
+	text-align: center;
+	color: darkSlateBlue;
+	text-shadow: 2px 2px 4px white;
+	text-align: center;
+}
+p	{
+	font-size:18px;
+	padding: 10px;
+}
+img {
+	padding: 10px 10px 0px 10px;
+	border: none;
+}
+
+#nappi {
+	float: right;
+}
+
+table, th, td {
+  border: none;
+  text-align: center;
+}
+table {
+	width: 80%;
+	margin: auto;
+}
+fieldset{
+	width:80%;
+	margin:auto;
+}
+input[type=text]	{
+	width: 50%;
+	padding: 10px 15px;
+	margin: 10px 0;
+}
+textarea {
+	width: 40%;
+	height: 100px;
+}
+
+
+label {
+	font-size: 15px;
+	font-weight: bold;
+}
+legend {
+	font-size: 20px;
+	font-weight: bold;
+}
+Footer	{
+
+		clear: both;
+		text-align: center;
+		padding: 30px;
+		color: black;
+		font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: papayawhip;
+	color: black;
+	background-image: none;
+  }
+  h1, h2 {
+	 color: black;
+	 font-size: 20px;
+	 text-shadow: none;
+	 
+  }
+  h3, p, label, legend, th, td {
+	color: black;
+	font-size: 12px;
+	text-shadow: none;
+	}
+	
+  figcaption{
+	display: none;
+  }
+}
